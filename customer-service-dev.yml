@@ -1,0 +1,10 @@
+customer:
+  property: "Customer Profile Dev"
+
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost:1465;databaseName=Northwind;trustServerCertificate=true;
+    username: sa
+    password: $Admin2024
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+
